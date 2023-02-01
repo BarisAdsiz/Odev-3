@@ -1,0 +1,47 @@
+body{
+    background-image: url(images/about-img.png);
+    background-position: top;
+    background-size: 73vh;
+    background-repeat: no-repeat;
+}
+ul{
+    text-align: center;
+    border: 1px solid #f1a603;
+    border-radius: 10px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-top: 100px;
+}
+ul:hover{
+    background-color: #f1a603;
+    color: white;
+    transform: translate(-1.1rem, -2ex);
+}
+ul li{
+    width: 350px;
+}
+#kofte{
+    padding-top: 30px;
+}
+#malzeme{
+    padding-top: 30px;
+}
+#tarif{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: black;
+    font-size: 17px;
+}
+.yapim-asamasi{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 20px;
+
+}
+.yapim-asamasi ol{
+    margin-left: 20px;
+}
